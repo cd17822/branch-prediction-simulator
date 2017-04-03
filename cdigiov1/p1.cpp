@@ -92,7 +92,7 @@ void initGshareTable() {
 
 void initTournamentTables() {
   for (int i = 0; i < TOURNAMENT_BIMODAL_MAP_SIZE; ++i) {
-    TOURNAMENT_BIMODAL_MAP[i] = STRONGLY_TAKEN; // Strongly Taken
+    TOURNAMENT_BIMODAL_MAP[i] = STRONGLY_TAKEN;
   }
   for (int i = 0; i < TOURNAMENT_GSHARE_MAP_SIZE; ++i) {
     TOURNAMENT_GSHARE_MAP[i] = STRONGLY_TAKEN;
